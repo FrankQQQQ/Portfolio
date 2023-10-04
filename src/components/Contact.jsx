@@ -1,12 +1,14 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-
+import { useState } from "react";
 const Contact = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const [message, setMessage] = useState('For security reasons, I advise against sending messages here. Please consider using email as an alternative. Thank you.');
+
 
   const onSubmit = (data, e) => {
     e.target.reset();
@@ -54,6 +56,10 @@ const Contact = () => {
               <textarea
                 {...register("subject", { required: true })}
                 placeholder="Message"
+                type="email"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+
               ></textarea>
               {errors.subject && <span>Subject is required.</span>}
             </li>

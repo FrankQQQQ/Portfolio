@@ -46,7 +46,7 @@ const CallToActionTwo = () => {
             data-aos-delay="100"
           >
             <button className="white-fill-bg" onClick={toggleModalOne}>
-              Make an enquiry
+              Contact
             </button>
           </div>
         </div>
@@ -99,7 +99,7 @@ const CallToActionTwo = () => {
                         src="img/svg/location.svg"
                         alt="location"
                       />
-                      <p>Brook 103, 90021 New York, USA</p>
+                      <p> <br />Toronto, Canada</p>
                     </div>
                   </li>
                   {/* End silgle address */}
@@ -112,12 +112,26 @@ const CallToActionTwo = () => {
                         alt="phone"
                       />
                       <p>
-                        <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
+                         <br />+1 437 424 0430
                       </p>
                     </div>
                   </li>
                   {/* End silgle address */}
 
+                  {<li>
+                    <div className="list_inner">
+                      <img
+                        className="svg"
+                        src="img/svg/email.svg"
+                        alt="email"
+                      />
+                      <p>
+                        chuanyang.qiao.work <br />@gmail.com
+                      </p>
+                    </div>
+                  </li>
+                  }
+{/* 
                   <li>
                     <div className="list_inner">
                       <img
@@ -127,7 +141,7 @@ const CallToActionTwo = () => {
                       />
                       <Social />
                     </div>
-                  </li>
+                  </li> */}
                   {/* End silgle address */}
                 </ul>
               </div>

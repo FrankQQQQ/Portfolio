@@ -11,7 +11,7 @@ const Video = () => {
             className="image jarallax"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/video/1.jpg"
+                process.env.PUBLIC_URL + "img/Experience/amazon_light.png"
               })`,
             }}
           ></div>
@@ -24,7 +24,7 @@ const Video = () => {
             channel="youtube"
             autoplay
             isOpen={isOpen}
-            videoId="ZOoVOfieAF8"
+            videoId="cor1Ts2txfM"
             onClose={() => setOpen(false)}
           />
 
@@ -38,7 +38,7 @@ const Video = () => {
             data-aos-duration="1200"
             data-aos-delay="50"
           >
-            I am delivering beautiful digital products for my clients
+            View Amazon Intern Project Report
           </h3>
 
           <div

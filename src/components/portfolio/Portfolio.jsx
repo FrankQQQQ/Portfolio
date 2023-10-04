@@ -10,8 +10,8 @@ const tabListContent = [
       {
         img: "/img/portfolio/1.jpg",
         title: " My Story",
-        meta: "Design",
-        portfolioLink: "https://www.instagram.com/",
+        meta: "Software Engineer Intern",
+        portfolioLink: "https://www.amazon.com/",
       },
       {
         img: "/img/portfolio/2.jpg",

@@ -7,98 +7,170 @@ const tabList = ["All", "Experience", "Project", "Photography"];
 const tabListContent = [
   {
     porftoliItems: [
+      
       {
-        img: "/img/portfolio/1.jpg",
-        title: " My Story",
-        meta: "Experience",
-        portfolioLink: "https://www.instagram.com/",
+        img: "/img/Experience/amazon.png",
+        title: " Amazon",
+        meta: "Software Engineer Intern",
+        portfolioLink: "https://www.linkedin.com/company/amazon/?originalSubdomain=ca",
       },
       {
-        img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "Project",
+        img: "/img/Experience/dataOnDemand.png",
+        title: "Data On Demand",
+        meta: "Data Engineer Intern",
         portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "https://www.linkedin.com/company/dataondemandchinaltd./",
       },
       {
-        img: "/img/portfolio/14.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
+        img: "/img/Experience/b2-st.png",
+        title: "B2ST",
+        meta: "Start Up Company",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://github.com/dcsil/B2ST-App",
       },
       {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
+        img: "/img/Experience/education_pathway.jpg",
+        title: "Education PathWay",
+        meta: "MERN-Stack",
+        portfolioLink: "https://www.youtube.com/watch?v=433Gg5AhhAE",
+      },
+      {
+        img: "/img/Experience/database.png",
+        title: "DataBase System",
+        meta: "C++",
         portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+          "https://github.com/FrankQQQQ/CSC443-Project",
       },
       {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
+        img: "/img/Experience/student_recruiter.png",
+        title: "Student Recruiter",
+        meta: "C",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://drive.google.com/file/d/1AWA8aeRuD3K4UgB7bHaTE5HTNkK2W__l/view?usp=sharing",
       },
       {
-        img: "/img/portfolio/3.jpg",
-        title: "Behance Shoot",
-        meta: "Branding",
-        portfolioLink: "https://www.behance.net/ib-themes",
+        img: "/img/Experience/pintos.jpg",
+        title: "Operating system",
+        meta: "C",
+        portfolioLink: "https://web.stanford.edu/class/cs140/projects/pintos/pintos.html",
       },
     ],
   },
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/22.jpg",
-        title: "Shane Design",
-        meta: "Design",
+        img: "/img/Experience/amazon.png",
+        title: "Amazon",
+        meta: "Software Engineer Intern",
         portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+          "https://www.linkedin.com/company/amazon/?originalSubdomain=ca",
       },
       {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
+        img: "/img/Experience/dataOnDemand.png",
+        title: "Data On Demand",
+        meta: "Data Engineer Intern",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/1.jpg",
-        title: " My Story",
-        meta: "Design",
-        portfolioLink: "https://www.instagram.com/",
-      },
-      {
-        img: "/img/portfolio/2.jpg",
-        title: "Design Trend",
-        meta: "Branding",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "https://www.linkedin.com/company/dataondemandchinaltd./",
       },
     ],
   },
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/7.jpg",
-        title: " Sweet Cherry",
-        meta: "Photography",
+        img: "/img/Experience/b2-st.png",
+        title: "B2ST",
+        meta: "Start Up Company",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://github.com/dcsil/B2ST-App",
       },
       {
-        img: "/img/portfolio/15.jpg",
-        title: "Soft Cream",
-        meta: "Photography",
+        img: "/img/Experience/education_pathway.jpg",
+        title: "Enducation PathWay",
+        meta: "MERN-Stack",
+        portfolioLink: "https://www.youtube.com/watch?v=433Gg5AhhAE",
+      },
+      {
+        img: "/img/Experience/database.png",
+        title: "DataBase System",
+        meta: "C++",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://github.com/FrankQQQQ/CSC443-Project",
+      },
+      {
+        img: "/img/Experience/student_recruiter.png",
+        title: "Student Recruiter",
+        meta: "C",
+        portfolioLink:
+          "https://drive.google.com/file/d/1AWA8aeRuD3K4UgB7bHaTE5HTNkK2W__l/view?usp=sharing",
+      },
+      {
+        img: "/img/Experience/pintos.jpg",
+        title: "Operating system",
+        meta: "C",
+        portfolioLink: "https://web.stanford.edu/class/cs140/projects/pintos/pintos.html",
+      },
+    ],
+  },
+  {
+    porftoliItems: [
+      {
+        img: "/img/Experience/photo/1.jpg",
+        title: "Al's Habrich Trail",
+        meta: "Vancouver",
+        portfolioLink: "https://www.seatoskygondola.com/trails/als-habrich-trail/"
+      },
+      {
+        img: "/img/Experience/photo/2.jpg",
+        title: "Wreck Beach",
+        meta: "Vancouver",
+        portfolioLink: "https://visit.ubc.ca/see-and-do/gardens-and-nature/wreck-beach/"
+      },
+      {
+        img: "/img/Experience/photo/3.jpg",
+        title: "Whistler Mountain",
+        meta: "Vancouver",
+        portfolioLink: "https://www.whistler.com/"
+      },
+      {
+        img: "/img/Experience/photo/4.jpg",
+        title: "Malahat Skywalk",
+        meta: "Victoria",
+        portfolioLink: "https://malahatskywalk.com/"
+      },
+      {
+        img: "/img/Experience/photo/5.jpg",
+        title: "Hatley Castle",
+        meta: "Los A",
+        portfolioLink: "http://hatleycastle.com/"
+      },
+      {
+        img: "/img/Experience/photo/6.jpg",
+        title: "Disney Land",
+        meta: "Los Angeles",
+        portfolioLink: "https://disneyland.disney.go.com/en-ca/"
+      },
+      {
+        img: "/img/Experience/photo/7.jpg",
+        title: "Sea Shore",
+        meta: "Los Angeles",
+        portfolioLink: "https://www.losangeles.com/"
+      },
+      {
+        img: "/img/Experience/photo/8.jpg",
+        title: "Rocky Mountains",
+        meta: "Colorado",
+        portfolioLink: "https://www.losangeles.com/"
+      },
+      {
+        img: "/img/Experience/photo/9.jpg",
+        title: "Night",
+        meta: "Toronto",
+      },
+      {
+        img: "/img/Experience/photo/10.jpg",
+        title: "universal studios hollywood",
+        meta: "Los Angeles",
+        portfolioLink: "https://www.universalstudioshollywood.com/web/en/us/"
       },
     ],
   },
@@ -153,9 +225,9 @@ const Portfolio = () => {
                                       <img
                                         src={val.img}
                                         alt="portfolio"
-                                        role="button"
-                                        ref={ref}
-                                        onClick={open}
+                                        // role="button"
+                                        // ref={ref}
+                                        // onClick={open}
                                       />
                                     )}
                                   </Item>

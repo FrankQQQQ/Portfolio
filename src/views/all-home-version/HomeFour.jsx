@@ -50,8 +50,8 @@ const HomeFour = () => {
 
 
 
-      <News />
-      {/* End Blog Section */}
+      {/* <News /> */}
+      End Blog Section
 
       <CallToAction />
       {/* End CallToAction */}
