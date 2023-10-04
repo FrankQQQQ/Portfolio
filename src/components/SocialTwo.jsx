@@ -2,18 +2,18 @@ import React from "react";
 
 const SocialShare = [
   {
-    iconName: "facebook",
-    link: "https://www.facebook.com/",
+    iconName: "email",
+    link: "chuanyang.qiao.work@gmail.com",
   },
-  { iconName: "twitter", link: "https://twitter.com/" },
+  { iconName: "phone", link: "https://twitter.com/" },
   {
-    iconName: "instagram",
+    iconName: "location",
     link: "https://www.instagram.com/",
   },
-  { iconName: "dribbble", link: "https://dribbble.com/" },
+  { iconName: "linkedin", link: "https://www.linkedin.com/in/chuanyang-qiao/" },
   {
-    iconName: "tik-tok",
-    link: "https://www.tiktok.com/",
+    iconName: "github",
+    link: "https://github.com/FrankQQQQ",
   },
 ];
 const Social = () => {
@@ -25,7 +25,7 @@ const Social = () => {
             <a href={`${val.link}`} target="_blank" rel="noreferrer">
               <img
                 className="svg"
-                src={`/img/svg/social/${val.iconName}.svg`}
+                src={`/img/svg/${val.iconName}.svg`}
                 alt="social"
               ></img>
             </a>
