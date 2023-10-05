@@ -55,7 +55,7 @@ const About = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="img/resume/resume.pdf" download>
+                  <a href="img/resume/Chuanyang_QIao_Resume.pdf" download>
                     Download CV
                   </a>
                 </div>
