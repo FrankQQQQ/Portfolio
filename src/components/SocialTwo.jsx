@@ -3,13 +3,9 @@ import React from "react";
 const SocialShare = [
   {
     iconName: "email",
-    link: "chuanyang.qiao.work@gmail.com",
+    link: "mailto:chuanyang.qiao.work@gmail.com",
   },
-  { iconName: "phone", link: "https://twitter.com/" },
-  {
-    iconName: "location",
-    link: "https://www.instagram.com/",
-  },
+  { iconName: "phone", link: "tel:+14374240430" },
   { iconName: "linkedin", link: "https://www.linkedin.com/in/chuanyang-qiao/" },
   {
     iconName: "github",
