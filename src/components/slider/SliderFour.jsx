@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
-import TextLoop from "react-text-loop";
+
 import Social from "../SocialTwo";
 const Slider = () => {
   return (
@@ -114,10 +114,9 @@ const Slider = () => {
 
                 <h4>
 
-                <TextLoop>
+
                   <span className="loop-text">Software Engineer</span>
-                  <span className="loop-text"> Content Creator</span>
-                </TextLoop>{" "}
+
                 </h4>
                 
 
